@@ -14,7 +14,7 @@ Bu Discord botu, Türkiye'nin 81 ili için iftar vakitlerini sorgulama ve otomat
 
 1. Bu repoyu klonlayın:
 ```bash
-git clone https://github.com/kullaniciadi/iftar-sorgu-bot.git
+git clone https://github.com/efetutorial/iftar-botu
 cd iftar-sorgu-bot
 ```
 
@@ -67,9 +67,6 @@ Bot, aşağıdaki API endpointlerini kullanır:
 - API'den veri alınamadığında, `iftarVakitleri.js` dosyasındaki sabit veriler kullanılır.
 - Sabit iftar vakitleri her Ramazan ayında güncellenmelidir.
 
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## Teşekkürler
 
