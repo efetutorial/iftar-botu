@@ -23,19 +23,6 @@ cd iftar-sorgu-bot
 npm install
 ```
 
-3. `config.js` dosyasını düzenleyin:
-```javascript
-module.exports = {
-  token: 'DISCORD_BOT_TOKEN', // Discord bot token'ınızı buraya girin
-  bildirim: {
-    kanalId: 'KANAL_ID', // Bildirim gönderilecek kanal ID'si
-    kullaniciId: 'KULLANICI_ID' // Bildirimde etiketlenecek kullanıcı ID'si
-  }
-};
-```
-
-4. İftar vakitlerini güncelleyin:
-`iftarVakitleri.js` dosyasındaki iftar vakitlerini güncel Ramazan ayı vakitlerine göre düzenleyin.
 
 5. Botu başlatın:
 ```bash
@@ -53,13 +40,6 @@ npm start
 - API'den veri alınamadığında, `iftarVakitleri.js` dosyasındaki sabit veriler kullanılır.
 - Her gün saat 00:05'te iftar vakitleri otomatik olarak güncellenir.
 - Bot, Türkiye saatini (Europe/Istanbul) baz alarak çalışır.
-
-## API Kullanımı
-
-Bot, aşağıdaki API endpointlerini kullanır:
-
-- `/api/coordinates` - İl koordinatlarını almak için
-- `/api/timesForGPS` - Koordinatlardan namaz vakitlerini almak için
 
 ## Notlar
 
